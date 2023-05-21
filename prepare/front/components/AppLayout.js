@@ -1,21 +1,28 @@
-import propTypes from 'prop-types'
-import Link from 'next/link'
+import propTypes from "prop-types";
+import Link from "next/link";
+import { Menu } from "antd";
 
-const AppLayout = ({children})=>{
-    return(
-        <div>
-            <div>
-                <Link href="/">노드버드</Link>
-                <Link href="/profile">프로필</Link>
-                <Link href="/signup">로그인</Link>
-            </div>
-            {children}
-        </div>
-    )
-}
+const AppLayout = ({ children }) => {
+  return (
+    <div>
+      <Menu mode="horizontal">
+        <Menu.Item>
+          <Link href="/">노드버드</Link>
+        </Menu.Item>
+        <Menu.Item>
+          <Link href="/profile">프로필</Link>
+        </Menu.Item>
+        <Menu.Item>
+          <Link href="/signup">로그인</Link>
+        </Menu.Item>
+      </Menu>
+      {children}
+    </div>
+  );
+};
 
 AppLayout.propTypes = {
-children:propTypes.node.isRequired
-}
+  children: propTypes.node.isRequired,
+};
 
 export default AppLayout;

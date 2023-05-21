@@ -9,8 +9,11 @@
   "author": "algemorge",
   "license": "ISC",
   "dependencies": {
+    "@ant-design/icons": "^5.1.0",
+    "antd": "^5.5.0",
     "next": "^13.4.3",
-    "prop-types": "^15.8.1"
+    "prop-types": "^15.8.1",
+    "styled-components": "^5.3.10"
   },
   "devDependencies": {
     "eslint": "^8.41.0",
