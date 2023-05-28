@@ -1,6 +1,15 @@
 {
+  "name": "react-sns",
+  "version": "1.0.0",
+  "description": "[풀스택] 리액트로 SNS 제작하기",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "react-redux": "^8.0.5",
-    "redux": "^4.2.1"
+    "redux": "^4.0.5"
   }
 }
