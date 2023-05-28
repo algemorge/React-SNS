@@ -1,22 +1,23 @@
 {
   "name": "react-nodebird-front",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build": "next build"
   },
   "author": "algemorge",
   "license": "ISC",
   "dependencies": {
     "@ant-design/icons": "^5.1.0",
-    "antd": "^5.5.0",
-    "next": "^13.4.3",
+    "antd": "^5.5.1",
+    "next": "^13.4.4",
     "next-redux-wrapper": "^6.0.2",
     "npm": "^9.6.7",
     "prop-types": "^15.8.1",
     "react-redux": "^8.0.5",
     "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
     "styled-components": "^5.3.10"
   },
   "devDependencies": {
@@ -24,5 +25,6 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0"
-  }
+  },
+  "description": ""
 }
